@@ -40,6 +40,8 @@ translate([0.5*(diameter+spacing),3*(diameter+spacing),0])
 translate([1.5*(diameter+spacing),3*(diameter+spacing),0])
     MolkkySkittle("8", skittleHeight, diameter, skittleChamfer);
 
+translate([2.5*(diameter+spacing),3*(diameter+spacing),0])
+    MolkkySkittle("", skittleHeight, diameter, skittleChamfer);
 translate([-1.5*(diameter+spacing),3*(diameter+spacing),0])
     MolkkyBaton(batonHeight, diameter, batonChamfer);
 
